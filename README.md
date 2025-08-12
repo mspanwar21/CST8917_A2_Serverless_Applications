@@ -1,7 +1,7 @@
 
 # Serverless & Event-Driven Services — Azure vs AWS vs GCP (CST8917)
 
-This report compares the **11 Azure services** referenced in your CST8917 revision slides with their closest **AWS** and **GCP** equivalents.  
+This report compares the **11 Azure services** used in whole course with their closest **AWS** and **GCP** equivalents.  
 For each service we include:
 - **Overview**
 - **Core Features** (triggers, bindings, messaging/eventing capabilities)
@@ -9,9 +9,6 @@ For each service we include:
 - **Monitoring & Observability**
 - **Pricing Model** (high-level)
 - **Strengths & Weaknesses** (serverless perspective)
-
-> Note: Capabilities and pricing vary by region/sku. Always verify limits and costs in the provider’s calculator/documentation for your target region.
-
 ---
 
 ## 🔎 Quick Mapping Table
