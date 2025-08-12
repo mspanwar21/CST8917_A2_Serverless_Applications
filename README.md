@@ -274,9 +274,3 @@ Per‑message tiers, device counts, features (DPS/provisioning optional), egress
 - **Weaknesses:** Edge cases (offline/patchy connectivity), security lifecycle management effort, cross‑region routing costs.
 
 ---
-
-## Final Notes
-
-- **Serverless design tips:** Prefer event‑driven, idempotent handlers; design for retries and DLQs; use orchestrators for state/timeouts/human steps.  
-- **Cost control:** Put budgets/alerts in place; minimize chatty logs; use lifecycle rules and cold tiers; choose streaming vs event routers based on replay needs.  
-- **Portability:** When possible, isolate cloud‑specific features behind application interfaces to soften vendor lock‑in.
